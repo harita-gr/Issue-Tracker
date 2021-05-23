@@ -1,0 +1,135 @@
+{
+  "issues": [
+    {
+      "description": "On clicking Delete, the app crashes",
+      "severity": "Major",
+      "status": "In Progress",
+      "date": "2021-04-23",
+      "views": 68,
+      "id": 1
+    },
+    {
+      "description": "The heading Add is wrongly displayed as Edit",
+      "severity": "Critical",
+      "status": "Closed",
+      "date": "2021-04-3",
+      "views": 4,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "description": "The payment functionality is missing",
+      "severity": "Major",
+      "status": "In Progress",
+      "date": "2021-04-21",
+      "views": 68
+    },
+    {
+      "description": "On Adding to the cart, the item does not gets added",
+      "severity": "Major",
+      "status": "In Progress",
+      "id": 4,
+      "date": "2021-04-28",
+      "views": 18
+    },
+    {
+      "description": "Dummy Issue ",
+      "severity": "Major",
+      "status": "Open",
+      "date": "2021-05-22",
+      "views": 0,
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "a@b.com",
+      "password": "12345678",
+      "firstname": "Harita",
+      "lastname": "R",
+      "location": "India",
+      "mobile": "0123456789"
+    },
+    {
+      "email": "mm@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "firstname": "Mandy",
+      "lastname": "Moore",
+      "location": "India",
+      "mobile": "0123456789",
+      "id": 2
+    },
+    {
+      "email": "dd@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "firstname": "Dakota",
+      "lastname": "Duff",
+      "location": "LA",
+      "mobile": "1234567890",
+      "id": 3
+    },
+    {
+      "email": "dhd@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "firstname": "Hillary",
+      "lastname": "Duff",
+      "location": "Tokyo",
+      "mobile": "1234567890",
+      "id": 4
+    },
+    {
+      "email": "mc@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "firstname": "Miley",
+      "lastname": "Cyrus",
+      "location": "Nashville",
+      "mobile": "1234567890",
+      "id": 5
+    },
+    {
+      "email": "drd@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "firstname": "Harita",
+      "lastname": "Ravindranath",
+      "location": "LA",
+      "mobile": "08547757384",
+      "id": 6
+    },
+    {
+      "email": "tobososama@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "firstname": "Harita",
+      "lastname": "Ravindranath",
+      "location": "LA",
+      "mobile": "08547757384",
+      "id": 7
+    },
+    {
+      "email": "ddy@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "firstname": "Harita",
+      "lastname": "Ravindranath",
+      "location": "LA",
+      "mobile": "08547757384",
+      "id": 8
+    },
+    {
+      "email": "haritagr@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "firstname": "Harita",
+      "lastname": "Ravindranath",
+      "location": "India",
+      "mobile": "08547757384",
+      "id": 9
+    }
+  ]
+}

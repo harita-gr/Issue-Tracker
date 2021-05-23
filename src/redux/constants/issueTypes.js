@@ -1,0 +1,5 @@
+export const FETCH_ISSUE = 'FETCH_ISSUE'
+export const VIEW_ISSUE = 'VIEW_ISSUE'
+export const ADD_ISSUE ='ADD_ISSUE'
+export const EDIT_ISSUE = 'EDIT_ISSUE'
+export const DELETE_ISSUE ='DELETE_ISSUE'

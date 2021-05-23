@@ -6,10 +6,25 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "chart.js": "^3.2.1",
+    "formik": "^2.2.7",
+    "json-server": "^0.16.3",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-chartjs-2": "^3.0.3",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-search-field": "^1.2.1",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "thunk": "0.0.1",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
+    "redux-devtools-extension": "^2.13.9"
   }
 }
