@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer/> render the footer correctly 1`] = `
+<footer>
+  <Container
+    fluid={false}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="text-center"
+      >
+         
+        <h6>
+          Copyright © 2021 @ Harita Ravindranath 
+        </h6>
+      </Col>
+    </Row>
+  </Container>
+</footer>
+`;

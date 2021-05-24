@@ -14,7 +14,7 @@ function RegisterScreen() {
     const history = useHistory();
 
     const userRegister = useSelector((state) => state.userRegister)
-    var { loading, error, userInfo } = userRegister
+    var {  error, userInfo } = userRegister
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -88,7 +88,7 @@ function RegisterScreen() {
                                             />
                                 {formik.touched.firstname && formik.errors.firstname ? (<span style={{color:'red',margin:'5px'}}> {formik.errors.firstname}</span>): null} 
                             </Form.Group>
-                            <Form.Group controlId="formBasicLastname">
+                            <Form.Group >
                                 <Form.Label>Last Name</Form.Label>
                                 <Form.Control type="text" 
                                             name="lastname"
@@ -100,7 +100,7 @@ function RegisterScreen() {
                                             />
                                 {formik.touched.lastname && formik.errors.lastname ? (<span style={{color:'red',margin:'5px'}}> {formik.errors.lastname}</span>): null} 
                             </Form.Group>
-                            <Form.Group controlId="formBasicEmail">
+                            <Form.Group >
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control type="email" 
                                             name="email"
@@ -112,7 +112,7 @@ function RegisterScreen() {
                                             />
                                 {formik.touched.email && formik.errors.email ? (<span style={{color:'red',margin:'5px'}}> {formik.errors.email}</span>): null} 
                             </Form.Group>
-                            <Form.Group controlId="formBasicEmail">
+                            <Form.Group >
                                 <Form.Label>Location</Form.Label>
                                 <Form.Control type="text" 
                                             name="location"
@@ -125,7 +125,7 @@ function RegisterScreen() {
                                 {formik.touched.location && formik.errors.location ? (<span style={{color:'red',margin:'5px'}}> {formik.errors.location}</span>): null} 
                             </Form.Group>
 
-                            <Form.Group controlId="formBasicEmail">
+                            <Form.Group>
                                 <Form.Label>Phone Number</Form.Label>
                                 <Form.Control type="text" 
                                             name="mobile"
@@ -139,7 +139,7 @@ function RegisterScreen() {
                             </Form.Group>
                             
     
-                            <Form.Group controlId="formBasicPassword">
+                            <Form.Group>
                                 <Form.Label>Password</Form.Label>
                                 <Form.Control type="password" 
                                             name="password"

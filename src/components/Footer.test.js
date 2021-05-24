@@ -12,4 +12,10 @@ describe('<Footer/>', () => {
             expect(wrapper.find("h6").text()).toContain("Copyright")
         });
 
+        
+      it('render the footer correctly',() =>{      
+        wrapper = shallow(<Footer/>); 
+        expect(wrapper).toMatchSnapshot();
+      })
+
 });

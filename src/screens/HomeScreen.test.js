@@ -15,4 +15,5 @@ describe('<HomeScreen/>', () => {
             expect(wrapper).toMatchSnapshot();
         });
 
+
 });
