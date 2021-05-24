@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen/> should render correctly using Full DOM 1`] = `
+<Container
+  fluid={false}
+>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      lg={8}
+      md={6}
+      sm={6}
+    >
+      <Image
+        alt="issue tracker image"
+        className="homeImage mx-auto"
+        fluid={false}
+        rounded={false}
+        roundedCircle={false}
+        src="undraw_fixing_bugs_w7gi.png"
+        thumbnail={false}
+      />
+    </Col>
+    <Col
+      className="features "
+      lg={4}
+      md={6}
+      sm={10}
+    >
+      <h4>
+         
+        <i
+          class="fas fa-check-circle"
+        />
+         Track Issues 
+      </h4>
+      <h4>
+         
+        <i
+          class="fas fa-check-circle"
+        />
+         Visual Reports
+      </h4>
+      <h4>
+         
+        <i
+          class="fas fa-check-circle"
+        />
+         User friendly
+      </h4>
+      <withRouter(LinkContainer)
+        to="/signin"
+      >
+        <Button
+          active={false}
+          className="mx-3 px-4"
+          disabled={false}
+          variant="dark"
+        >
+          GET STARTED
+        </Button>
+      </withRouter(LinkContainer)>
+    </Col>
+  </Row>
+</Container>
+`;

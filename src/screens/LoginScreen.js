@@ -84,7 +84,7 @@ function LoginScreen() {
                              {formik.touched.password && formik.errors.password ? (<span style={{color:'red',margin:'5px'}}> {formik.errors.password}</span>): null} 
 
                         </Form.Group>
-                        <Button variant="primary" type="submit">
+                        <Button variant="primary" type="submit" className='login-btn'>
                             Submit
                         </Button>
                     </Form>
@@ -97,14 +97,6 @@ function LoginScreen() {
         
     )
 }
-
-// const mapDispatchToProps = dispatch => {
-//     return{
-//         login: (values) => dispatch(userLogin(values))
-//     }
-// }
-
-// export default connect (null,mapDispatchToProps) (LoginScreen)
 
 export default LoginScreen
 
