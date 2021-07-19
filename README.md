@@ -1,16 +1,17 @@
 Issue Tracker application to log bugs.
 
 
-Technologies: React JS,Redux
+# Technologies: 
+  React JS,Redux
 
-Features:
+# Features:
 
-Create,Read,Edit Delete issues
-Search operation without clicking Search button (auto)
-Custom field toggling
-Login,SignUp
-Auth Validation
-Backend using A) JSON server B) NodeJs
+- Create,Read,Edit Delete issues
+- Search operation without clicking Search button (auto)
+- Custom field toggling
+- Login,SignUp
+- Auth Validation
+- Backend using A) JSON server B) NodeJs
 
 
 # How to Run the app
